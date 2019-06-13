@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <title>NETWORK | Soluciones Móbiles para empresas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <style>
+        .contenedor{
+            max-width: 80%;
+            margin: 1rem auto;
+            flex-wrap: wrap;
+            display: flex;
+        }
+        header{
+            flex: 1 1 100%;
+            background: #cff821;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header a{
+            flex: 0 1 auto;
+        }
+        header a img{
+            width: 100%;
+        }
+        header nav ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        header nav ul li a{
+            display: block;
+            background: red;
+            color: #fff;
+            padding: 1rem;
+            margin: 0 .3rem;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .contenido{
+            background: #9ce317;
+            flex: 3 1 0px;
+            padding: 1rem;
+            order: 2;
+        }
+        .lateral-1{
+            background: #16c1c7;
+            flex: 1 1 0px;
+            padding: 1rem;
+            order: 1;
+        }
+        .lateral-2{
+            background: #f50fae;
+            flex: 1 1 0px;
+            padding: 1rem;
+            order: 3;
+        }
+        footer{
+            background: #0f0e0e;
+            color: #fff;
+            flex: 1 1 100%;
+            text-align: center;
+            order: 4;
+        }
+        @media(max-width:1000px){
+            .contenedor{
+                max-width: 90%;
+            }
+        }
+        @media(max-width:850px){
+            header{
+                flex-direction: column;
+            }
+            header a{
+                flex: 0 1 auto;
+                margin-bottom: 1rem;
+            }
+        }
+        @media(max-width:700px){
+            .lateral-1, 
+            .lateral-2, 
+            .contenido{
+                flex: 1 1 100%;
+            }
+        }
+        @media(max-width:590px){
+            .contenedor{
+                max-width: 100%;
+                margin: 0;
+            }
+            header{
+                padding: 1rem 0 0 0;
+                justify-content: center;
+                align-items: stretch;
+            }
+            header a.logo{
+                align-self: center;
+                padding: 1rem;
+            }
+            header nav ul{
+                flex-direction: column;
+            }
+            header nav ul li a{
+                margin: 0;
+                border-radius: 0;
+                border-bottom: 1px solid #af0f0f;
+                text-align: center;
+            }
+        }
+        
+        
+    </style>
+    
+  </head>
+  <body>
+      <div class="contenedor">
+          <header>
+              <a href="#" class="logo"><img src="images/logo.svg" alt="logo del sitio"></a>
+              <nav>
+                  <ul>
+                      <li><a href="#">Enlace 1</a></li>
+                      <li><a href="#">Enlace 2</a></li>
+                      <li><a href="#">Enlace 3</a></li>
+                      <li><a href="#">Enlace 4</a></li>
+                      <li><a href="#">Enlace 5</a></li>
+                  </ul>
+              </nav>
+          </header>
+          <article class="contenido">
+              <h1>CONTENIDO PRINCIPAL</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio fuga iste cum asperiores at dolores quasi pariatur, reprehenderit cumque harum temporibus obcaecati est eum ratione impedit a nulla vero quia.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio fuga iste cum asperiores at dolores quasi pariatur, reprehenderit cumque harum temporibus obcaecati est eum ratione impedit a nulla vero quia.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio fuga iste cum asperiores at dolores quasi pariatur, reprehenderit cumque harum temporibus obcaecati est eum ratione impedit a nulla vero quia.</p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio fuga iste cum asperiores at dolores quasi pariatur, reprehenderit cumque harum temporibus obcaecati est eum ratione impedit a nulla vero quia.</p>
+          </article>
+          
+          <aside class="lateral-1">
+              <h2>LATERAL 1</h2>
+              <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus quae officia, iste maxime in recusandae eius voluptates, repellat vero nihil consequuntur, illum doloribus, assumenda laboriosam quod voluptatum ipsum aspernatur.</P>
+              <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus quae officia, iste maxime in recusandae eius voluptates, repellat vero nihil consequuntur, illum doloribus, assumenda laboriosam quod voluptatum ipsum aspernatur.</P>
+          </aside>
+          <aside class="lateral-2">
+              <h2>LATERAL 2</h2>
+              <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus quae officia, iste maxime in recusandae eius voluptates, repellat vero nihil consequuntur, illum doloribus, assumenda laboriosam quod voluptatum ipsum aspernatur.</P>
+              <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus quae officia, iste maxime in recusandae eius voluptates, repellat vero nihil consequuntur, illum doloribus, assumenda laboriosam quod voluptatum ipsum aspernatur.</P>
+          </aside>
+          <footer>
+              <p>Todos los derechos reservados</p>
+          </footer>
+      </div>
+  </body>
+</html>
